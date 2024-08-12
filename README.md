@@ -1,2 +1,3 @@
-# my-first-project
-this is  my first project in github.
+# About my first project on GitHub
+## this is my fist npm project github ,to-do-list.
+
