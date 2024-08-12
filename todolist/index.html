@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/html.css">
+    <link rel="stylesheet" href="./iconfont/iconfont/font_4645122_bpq8n3s96ad/iconfont.css">
+    <link rel="stylesheet" href="./iconfont/iconfont/font_4645122_bpq8n3s96ad/demo.css">
+ 
+</head>
+<body>
+    <div class="box">
+        <div class="title">TODOLIST</div>
+        <div class="content">
+            <div class="head">
+                <div class="inout">
+                 <input type="text" id="userinput" placeholder="Input Your Plan">
+                </div>
+                <div class="click">
+                    <span class="iconfont icon-Plus"></span>
+                </div>
+            </div>
+            <!-- list区域 -->
+             <div class="list">
+                <ul>
+                    <li><span class="txt">My Plan Buy new gaming laptop<i class="iconfont icon-Delete"></i></span></li>
+                    <li><span class="txt">My Plan Buy new gaming laptop<i class="iconfont icon-Delete"></i></span></li>
+                    <li><span class="txt">My Plan Buy new gaming laptop<i class="iconfont icon-Delete"></i></span></li>
+                    <li><span class="txt">My Plan Buy new gaming laptop<i class="iconfont icon-Delete"></i></span></li>
+                    <li><span class="txt">My Plan Buy new gaming laptop<i class="iconfont icon-Delete"></i></span></li>
+                    <li><span class="txt">My Plan Buy new gaming laptop<i class="iconfont icon-Delete"></i></span></li>
+                </ul>
+             </div>
+             
+        </div>
+    </div>
+    <script src="./html.js">const add = document.querySelector(".click");
+
+        add.addEventListener("click", () => {
+            const INPUT = document.getElementById("userinput").value; // 获取输入框的值
+            alert('finished');
+            localStorage.setItem("userinput", INPUT); // 存储到本地存储
+        });</script>
+
+</body>
+
+</html>

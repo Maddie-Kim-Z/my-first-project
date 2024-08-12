@@ -1,0 +1,136 @@
+.box{
+    /* background-color: pink; */
+    margin: 10px auto;
+    width: 600px;
+    height: 1000px;
+}
+
+.title {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px dashed rgb(212, 212, 212);
+}
+
+/* 内容板块 */
+
+    /* 头部板块 */
+
+.content{
+    padding: 40px 40px;
+}
+
+
+.content .inout{
+    width: 400px;
+    height: 50px;
+    background-color: rgb(255, 161, 79);
+    border-radius: 50px;
+    position: relative;
+    box-shadow:1px 1px 2px;
+    margin-right: 50px;
+}
+
+.content .inout:hover {
+    box-shadow:1px 1px 6px;
+    transition: all 0.5s;
+}
+
+.inout input{
+    width: 350px;
+    height: 35px;
+    border-radius: 35px;
+    position: absolute;
+    top:5px;
+    left: 5px;
+    padding-left: 30px;
+    border: none;
+    box-shadow:1px 1px 2px;
+    outline: none;
+}
+
+.content .head{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.head .click{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(255, 161, 79);
+    border-radius: 35px;
+    position: relative;
+    box-shadow:1px 1px 2px;
+    margin-top: 5px;
+}
+
+.head .click span{
+    position:absolute;
+    top: 8px;
+    left: 8px;
+    font-size: 20px;
+}
+
+.head .click:hover{
+    box-shadow:1px 1px 6px;
+    transition: all 0.3s;
+}
+
+/* list区域 */
+
+.list li .txt{
+    display: block;
+    font-size: 20px;
+    padding: 0px 10px;
+   
+   
+    white-space: nowrap;
+}
+
+.list li{
+    display: flex;
+    margin-bottom: 15px; 
+    background-color: rgb(190, 190, 190);
+    width: 490px;
+    height: 45px;
+    position: relative;
+    border-radius: 45px;
+    line-height: 45px;
+    overflow: hidden;
+    box-shadow:1px 1px 1px transparent;
+}
+
+.list li:hover{
+    box-shadow:1px 1px 2px;
+    transition: all 0.3s;
+    box-shadow:1px 1px 2px;
+    transition: all 0.3s;
+}
+
+.list .iconfont:hover{
+    transition: all 0.3s;
+    color: brown;
+    transition: all 0.3s;
+}
+
+.list li .iconfont{
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+    top: 4px;
+}
+
+
+
+.delet{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    /* display: inline; */
+}
+
+
+
+
+
